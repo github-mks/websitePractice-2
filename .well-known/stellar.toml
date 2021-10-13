@@ -1,30 +1,23 @@
+VERSION="1.0.1"
+
 NETWORK_PASSPHRASE="Public Global Stellar Network ; September 2015"
-FEDERATION_SERVER="https://api.domain.com/federation"
-AUTH_SERVER="https://vibrant-saha-04a28d.netlify.app/auth"
-TRANSFER_SERVER="https://api.vibrant-saha-04a28d.netlify.app"
-SIGNING_KEY="GBBHQ7H4V6RRORKYLHTCAWP6MOHNORRFJSDPXDFYDGJB2LPZUFPXUEW3"
-HORIZON_URL="https://horizon.vibrant-saha-04a28d.netlify.app"
+
 ACCOUNTS=[
 "GDNYNXBFPBKXDME6LY3UTVQ2JJC7HS62NJBATTNAEGU3MK5TMKOCLT75",
 "GCZXK4XOSM5HKP7GAUD2N55RH7G6HJU4DDYIV4OCCYOOU67YRBVYTUSA"
 ]
-VERSION="1.0.0"
 
 [DOCUMENTATION]
 ORG_NAME="Privacy Boys"
-ORG_URL="https://vibrant-saha-04a28d.netlify.app/"
 ORG_LOGO="https://vibrant-saha-04a28d.netlify.app/images/logo.png"
 ORG_DESCRIPTION="Exploring Stellar Blockchain"
 
-[[PRINCIPALS]]
-name="Privacy Pete"
-
-# asset with meta info
 [[CURRENCIES]]
 code="PRVC"
 issuer="GDNYNXBFPBKXDME6LY3UTVQ2JJC7HS62NJBATTNAEGU3MK5TMKOCLT75"
 display_decimals=7
 name="Privacy Coin"
 desc="Take your privacy to the next level."
-fixed_number=550000000
+conditions="550,000,000 issued"
+image="https://vibrant-saha-04a28d.netlify.app/images/logo.png"
 
